@@ -1,0 +1,131 @@
+.mediaHoverPrimeImg {
+  position: absolute;
+  z-index: 1;
+}
+.mediaHoverImg {
+  height: 160px;
+  width: 281px;
+  border-radius: 0%;
+  z-index: 2;
+  cursor: pointer;
+}
+.hoverScreen {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  width: 285px;
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-delay: 2000ms;
+  transition-duration: 3s;
+  top: 10px;
+  opacity: 1;
+  z-index: 2;
+  margin-bottom: 20px;
+  text-decoration: none;
+  border: 2px solid #00a8e1;
+  border-radius: 3px;
+  transition: border 0.25s;
+}
+.hoverData {
+  position: relative;
+  background: linear-gradient(rgba(27, 37, 48, 0), #1b2530 48px);
+  padding: 20px 20px;
+  padding-bottom: 5px;
+  margin-top: -60px;
+  z-index: 2;
+  text-decoration: none;
+}
+.buttonContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.playDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width: 75px;
+  margin-top: 20px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  border: 2px solid white;
+  border-radius: 20px;
+  outline: none;
+  background-color: black;
+  cursor: pointer;
+}
+.watchlistButton{
+  display: flex;
+  margin-top: 20px;
+
+}
+.play {
+  border-top: 8px solid black;
+  border-bottom: 8px solid black;
+  border-left: 14px solid whitesmoke;
+  margin-left: 3px;
+  height: 0px;
+}
+.playtext {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #00a8e1;
+  border: 2px solid #00a8e1;
+  transition: border, background-color, 0.25s;
+}
+.button:hover .play {
+  border-top: 8px solid #00a8e1;
+  border-bottom: 8px solid #00a8e1;
+  transition: border-top, border-bottom, 0.25s;
+}
+.primeText {
+  color: #00a8e1;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.title {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+}
+.overview {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.releaseYear {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.runTime {
+  font-size: 12px;
+}
+.footerScreen {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.rated {
+  border: 1px solid darkgray;
+  color: darkgray;
+  font-size: 9px;
+  padding: 3px;
+  height: 10px;
+}

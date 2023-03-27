@@ -1,0 +1,119 @@
+.mediaScreen {
+  margin-top: 20px;
+  z-index: 0;
+}
+.heading {
+  font-size: 19px;
+  color: aliceblue;
+  font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.banner {
+  display: flex;
+  left: 10px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  justify-content:flex-start;
+  z-index: -1;
+}
+.banner::-webkit-scrollbar {
+  display: none;
+}
+.leftIconDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0px;
+  margin-top: 2px;
+  min-height: 166px;
+  z-index: 10;
+  width: 50px;
+  color: gray;
+  position: absolute;
+  -webkit-transition: opacity 0.25s ease, background-color 0.25s ease;
+  transition: opacity 0.25s ease, background-color 0.25s ease;
+  background-color: rgba(15, 23, 30, 0.5);
+  cursor: pointer;
+}
+.leftIcon {
+  height: 30px;
+}
+.leftIconDiv:hover {
+  background-color: rgba(15, 23, 30, 0.829);
+  transition: background-color 0.2s;
+}
+.rightIconDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -166px;
+  right: 0px;
+  min-height: 166px;
+  z-index: 10;
+  width: 50px;
+  color: gray;
+  position: absolute;
+  -webkit-transition: opacity 0.25s ease, background-color 0.25s ease;
+  transition: opacity 0.25s ease, background-color 0.25s ease;
+  background-color: rgba(15, 23, 30, 0.5);
+  cursor: pointer;
+}
+.rightIcon {
+  height: 30px;
+  /* width: 30px; */
+  margin-left: 5px;
+}
+.rightIconDiv:hover {
+  background-color: rgba(15, 23, 30, 0.829);
+  transition: background-color 0.2s;
+}
+
+.mediaDiv {
+  position: static;
+  width: 100%;
+  cursor: pointer;
+  z-index: 0;
+  /* padding: 10px 0px;
+  padding-top: 0px; */
+}
+.mediaDiv .displayhoverScreen {
+  display: none;
+  position: absolute;
+  z-index: 99999;
+  padding: 1px;
+  min-height: 400px;
+  transform: scale(1);
+}
+.mediaDiv:hover > .displayhoverScreen {
+  display: block;
+}
+.media {
+  height: 208px;
+  width: 281px;
+  border-radius: 0%;
+  margin: -20px 5px;
+  border-radius: 4px;
+  z-index: -1;
+  visibility: visible;
+}
+
+.mediaHoverPrimeImg {
+  transform: translateY(100%);
+}
+.movieImg {
+  height: 160px;
+  width: 281px;
+  border-radius: 5px;
+}
+
+.mediaDiv:hover {
+  padding: 0px;
+}
+
+.mediaDiv:hover .media {
+  height: 0px;
+  width: 284px;
+  visibility: hidden;
+}

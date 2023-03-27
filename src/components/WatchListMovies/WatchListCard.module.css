@@ -1,0 +1,53 @@
+.banner {
+  display: flex;
+  left: 10px;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.mediaDiv {
+  position: static;
+  width: 100%;
+  cursor: pointer;
+  z-index: 1;
+  /* padding: 10px 0px;
+  padding-top: 0px; */
+}
+.mediaDiv .displayhoverScreen {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  padding: 1px;
+  min-height: 400px;
+  transform: scale(1);
+}
+.mediaDiv:hover > .displayhoverScreen {
+  display: block;
+}
+.media {
+  height: 208px;
+  width: 300px;
+  border-radius: 0%;
+  margin: 5px;
+  border-radius: 4px;
+  z-index: -1;
+  visibility: visible;
+}
+
+.mediaHoverPrimeImg {
+  transform: translateY(100%);
+}
+.movieImg {
+  height: 160px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.mediaDiv:hover {
+  padding: 0px;
+}
+
+.mediaDiv:hover .media {
+  height: 0px;
+  width: 284px;
+  visibility: hidden;
+}

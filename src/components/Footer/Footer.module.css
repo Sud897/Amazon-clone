@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(31,31,31); */
+    background-color: #0f171e;
+    padding-top: 1rem;
+}
+
+.footer-link  {
+    margin: 0.5rem 0 0.875rem 0;
+    text-decoration: none;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.footer-link a {
+    color: #0f79af;
+    padding: 0 1rem;
+}
+.footer-link a:hover {
+    cursor: pointer;
+}
+
+.footer-copyright {
+    margin: 0 0 1.5rem 0;
+    color: #949494;
+    text-align: center;
+    word-wrap: break-word;
+}
+

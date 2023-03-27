@@ -1,0 +1,42 @@
+.iconContainer {
+  margin-left: 1.5vw;
+  width:fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 5px;
+}
+.icons {
+  height: 50px;
+  background-color: #425265;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.icons:hover {
+  background-color: #596c83;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+.icons svg {
+  color: rgb(207, 207, 207);
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out;
+}
+.icons svg:hover {
+  color: white;
+}
+@media (max-width: 450px) {
+  .iconContainer{
+
+    margin: 1rem;
+  }  
+  .icons{
+    margin-bottom: 10px;
+  }
+}

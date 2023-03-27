@@ -1,0 +1,34 @@
+.castDetail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 5px;
+}
+dt {
+  color: #8197a4;
+  font-weight: 700;
+  width: 200px;
+  padding-right: 20px;
+  font-size: 17px;
+}
+dd {
+  color: #8197a4;
+}
+.castDetailrightsubdivblue {
+  color: #79b8f3 !important;
+}
+@media (max-width: 510px) {
+  .castDetail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 450px) {
+  .castDetail div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+}

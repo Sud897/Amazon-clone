@@ -1,0 +1,225 @@
+.form-box {
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+.heading {
+  font-weight: 400;
+  font-size: 28px;
+  margin: 0;
+  margin-bottom: 0.75rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.form-control label {
+  font-weight: 500;
+  padding-bottom: 0.25rem;
+}
+
+.form-control input {
+    width: 100%;
+    height: 2rem;
+    padding: 0.25rem 0.5rem;
+    outline: none;
+    border: 1px solid rgb(131, 127, 127);
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.form-control input:focus,
+input:active {
+  border-color: rgb(199, 102, 37);
+  box-shadow: 0px 0px 3px 1px #f0c14b;
+  /* box-shadow: #cc8a45 0px 2px 8px 0px; */
+  transition: border, box-shadow 0.25s;
+}
+
+.password {
+  display: flex;
+  justify-content: space-between;
+}
+.password a,
+.agreement a {
+  color: #0066c0;
+  font-size: 0.875rem;
+}
+
+.password a:hover,
+.agreement a:hover,
+.already-have-an-account a:hover {
+  text-decoration: underline;
+  color: rgb(196, 84, 9);
+  cursor: pointer;
+}
+
+.form-btn {
+  background-color: #f3d17b;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(196, 84, 9);
+  border-radius: 0.25rem;
+}
+
+.form-btn:hover {
+  cursor: pointer;
+  background-color: #cfaa4a;
+}
+
+.agreement {
+  margin-top: 1rem;
+  width: 18.875rem;
+  font-size: 13px !important;
+  word-break: break-word;
+}
+
+.divider {
+  text-align: center;
+  position: relative;
+  top: 2px;
+  padding-top: 1px;
+  margin-bottom: 14px;
+  line-height: 0;
+}
+
+.divider h5 {
+  line-height: 1;
+  font-size: 12px;
+  color: #767676;
+  font-weight: 400;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  padding: 0 8px 0 7px;
+}
+
+.divider::after {
+  content: "";
+  width: 100%;
+  background-color: transparent;
+  display: block;
+  height: 1px;
+  border-top: 1px solid #e7e7e7;
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  z-index: 1;
+}
+
+.create-account-button {
+  text-align: center;
+  display: block;
+  border: 1px solid rgb(196, 194, 194);
+  background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 450;
+}
+
+.create-account-button a {
+  color: black;
+}
+
+.create-account-button:hover {
+  cursor: pointer;
+  background-color: #e7e9ec;
+}
+
+.inner-divider {
+  margin-top: 0.875rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.03);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.14),
+    rgba(0, 0, 0, 0.03) 3px,
+    transparent
+  );
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  z-index: 1;
+}
+
+.already-have-an-account {
+  font-size: 0.875rem;
+}
+
+.already-have-an-account a {
+  color: #0066c0;
+}
+
+.small-text {
+  width: 18.875rem;
+  word-wrap: break-word;
+  font-size: 13px;
+  padding-bottom: 0.75rem;
+}
+
+.customer-service {
+  width: 22rem;
+}
+
+.customer-service h4 {
+  font-size: 17px;
+  font-weight: 400;
+  display: block;
+  margin: 0;
+  padding-top: 0.75rem;
+}
+
+.customer-service p {
+  word-wrap: break-word;
+  margin: 0;
+  padding-top: 0.5rem;
+  font-size: 12px;
+}
+.customer-service a {
+  color: #0066c0;
+}
+
+.customer-service a:hover {
+  cursor: pointer;
+  color: rgb(196, 84, 9);
+  text-decoration: underline;
+}
+
+/* .form-control-error label, */
+.form-control-error p {
+  color: red;
+}
+
+.form-control-error p {
+  margin: 0;
+  padding-top: 0.25rem;
+  font-size: 0.75rem;
+}
+
+.form-control-error input {
+  border: 1px solid #a81111;
+  box-shadow: 0px 0px 3px inset #f80000;
+}
+
+.error {
+  text-align: center;
+  font-size: 1.25rem;
+  color: red;
+}
+
+.success {
+  text-align: center;
+  font-size: 1.25rem;
+  color: rgb(15, 102, 7);
+  width: 18.875rem;
+  word-wrap: break-word;
+}
+
+.form-btn:disabled {
+    cursor: not-allowed;
+}

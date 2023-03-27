@@ -1,0 +1,42 @@
+/* .watchlist-card-container {
+  display: flex;
+  align-items: center;
+} */
+
+.emptyWatchListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.emptyWatchListImg {
+  height: 217px;
+  width: 217px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.emptyMsg {
+  color: #feffff;
+  font-size: 17px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+.instruction {
+  color: #8197a4;
+}
+.instruction a {
+  color: #79b8f3;
+}
+.instruction a:hover {
+  color: #90c4f5;
+  transition: color 0.25s;
+}
+.instruction a:active {
+  color: #79b8f3 !important;
+  text-decoration: none !important;
+}
